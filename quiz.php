@@ -64,29 +64,12 @@ foreach( $command as $com)
 
 
 }
+echo "Jméno:   <input name=\"username\" type=\"text\"/><br/>";
+echo "Skupina: <input name=\"groupName\" type=\"text\"/><br/>";
 echo '<input type="submit" value="Pošli"></input>';
 echo '</form>';
 
 
-/*
-echo "<table border='1'>";
-echo "<tr><td>ID</td><td>quizID</td><td>questionName</td><td>questionNumber</td>" ;
-echo "<td>choiceA</td><td>choiceB</td><td>choiceC</td><td>choiceD</td><td>answer</td></tr>";
 
-foreach( $command as $v)
-{
-    echo "<tr><td>" . $v["ID"];
-    echo "</td><td>" . $v["quizID"];
-    echo "</td><td>" . $v["questionName"];
-    echo "</td><td>" . $v["questionNumber"];
-    echo "</td><td>" . $v["choiceA"];
-    echo "</td><td>" . $v["choiceB"];
-    echo "</td><td>" . $v["choiceC"];
-    echo "</td><td>" . $v["choiceD"];
-    echo "</td><td>" . $v["answer"];
-    echo "</td></tr>";
-}
-echo "</table>";
-*/
 ?>
 </body>
