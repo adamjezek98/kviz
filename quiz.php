@@ -32,11 +32,10 @@ $connection = new PDO("mysql:host=localhost;dbname=quizDB",'root','');
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $connection->query("SET NAMES utf8");
 
-$command = $connection->prepare("SELECT * FROM quizes WHERE ID=".$quizid);
+$command = $connection->prepare("SELECT quizName FROM quizes WHERE ID=$quizid "); //
 $command->execute();
-foreach( $command as $com) {
-    echo "<h2>" . $com["quizName"] . "</h2>";
-}
+$res = $command->setFetchMode(PDO::FETCH_ASSOC);
+echo "<h2>" . $command->fetchColumn() . "</h2>";
 
 $command = $connection->prepare("SELECT * FROM questions WHERE quizID=".$quizid);
 $command->execute();
@@ -56,16 +55,16 @@ foreach( $command as $com)
     echo "</select>";
 
     echo "<ol type='A'>";
-    echo "<li>". $com["choiceA"]."</li>";
-    echo "<li>". $com["choiceB"]."</li>";
-    echo "<li>". $com["choiceC"]."</li>";
-    echo "<li>". $com["choiceD"]."</li>";
-    echo "</ol>"."\n";
+    echo "<li>". $com["choiceA"]. "</li>";
+    echo "<li>". $com["choiceB"]. "</li>";
+    echo "<li>". $com["choiceC"]. "</li>";
+    echo "<li>". $com["choiceD"]. "</li>";
+    echo "</ol>". "\n";
 
 
 }
-echo "Jméno:   <input name=\"username\" type=\"text\"/><br/>";
-echo "Skupina: <input name=\"groupName\" type=\"text\"/><br/>";
+echo "Jméno:   <input name=\"username\" type=\"text\"/><br/> \n";
+echo "Skupina: <input name=\"groupname\" type=\"text\"/><br/> \n";
 echo '<input type="submit" value="Pošli"></input>';
 echo '</form>';
 

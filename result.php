@@ -40,10 +40,10 @@ echo "Počet otázek: " . $questioncount . "<br/>\n";
 echo "Vyhodnocení: <br/>";
 
 $points = 0;
-for($i = 0; $i < $questioncount; $i++ )
-{
-    $num = $i+1;
-    $useranswer =  $_POST["answer".$num]; //get user answer
+$answerstring = "";
+for($i = 0; $i < $questioncount; $i++ ) {
+    $num = $i + 1;
+    $useranswer = $_POST["answer" . $num]; //get user answer
 
     //get right answer
     $command = $connection->prepare("SELECT answer FROM questions WHERE quizID=$quizid and questionNumber = $num");
@@ -53,7 +53,7 @@ for($i = 0; $i < $questioncount; $i++ )
     //get question text
     $command = $connection->prepare("SELECT questionName FROM questions WHERE quizID=$quizid and questionNumber = $num");
     $command->execute();
-    $question =  $command->fetchColumn();
+    $question = $command->fetchColumn();
 
     //get choiceA
     $command = $connection->prepare("SELECT choiceA FROM questions WHERE quizID=$quizid and questionNumber = $num");
@@ -77,20 +77,38 @@ for($i = 0; $i < $questioncount; $i++ )
 
     echo "Otázka č." . $num . ": " . $question . "<br/>";
     echo "Zvolil jsi $useranswer <br/> \n";
-    if($useranswer == $rightanswer) {
+    $answerstring = $answerstring . $num . ":". $useranswer;
+    if ($useranswer == $rightanswer) {
         echo "<font  color=\"green\">Správně!";
         $points++;
-    }
-    else
+        $answerstring = $answerstring . "(Y) | ";
+    } else {
+
         echo "<font  color=\"red\">Špatně! Správná odpověď byla $rightanswer";
+        $answerstring = $answerstring . "(N:$rightanswer) | ";
+    }
 
     echo "<ol><li>$choiceA</li><li>$choiceB</li><li>$choiceC</li><li>$choiceD</li></ol> \n";
     echo "</font>";
 
 }
-echo "Más $points bodů. ";
+echo "<b>Máš $points bodů z $questioncount. <br/> ";
 $result = (100*$points) / $questioncount;
-echo "To je $result %";
+echo "To je $result % </b><br/> \n";
+
+$username = $_POST["username"];
+$groupname = $_POST["groupname"];
+
+$command = $connection->prepare("INSERT INTO
+ answers (
+quizID, userName, groupName, result, answers ) VALUES
+ ($quizid,
+  \"$username\",
+  \"$groupname\"
+  ,$result,
+  \"$answerstring\")");
+
+$command->execute();
 
 ?>
 </body>

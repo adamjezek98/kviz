@@ -20,6 +20,35 @@ $connection = new PDO("mysql:host=localhost;dbname=quizDB",'root','');
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 echo 'connected<br/>';
 $connection->query("SET NAMES utf8");
+/*
+for($i = 3; $i < 30; $i++) {
+
+    $command = $connection->prepare("INSERT INTO questions (quizName) VALUE (\"Testovací kvíz č. $i\")");
+    $command->execute();
+}
+*/
+
+$answers = array("A", "B", "C", "D");
+for($i = 1; $i <= 30; $i++) {
+
+    for($q = 1; $q <= 15; $q++) {
+        $a =  $answers[rand(0, 3)];
+        $command = $connection->prepare("INSERT INTO questions(quizID, questionName, questionNumber, choiceA, choiceB, choiceC, choiceD, answer) VALUES (
+    $i,
+    \"$q. testovací otázka kvízu $i, $a\",
+    $q,
+    \"Možnost A\",
+    \"Možnost B\",
+    \"Možnost C\",
+    \"Možnost D\",
+    \"$a\"
+        )");
+        $command->execute();
+
+    }
+}
+
+exit;
 $command = $connection->prepare("SELECT * FROM questions ");
 $command->execute();
 
