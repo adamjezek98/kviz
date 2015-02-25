@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee82e948-5269-46c5-836c-bd6643e3cd1c" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kviz\questions.php" afterPath="$PROJECT_DIR$/tests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaderboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz.php" afterPath="$PROJECT_DIR$/quiz.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result.php" afterPath="$PROJECT_DIR$/result.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kviz.iws" />
@@ -40,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tests.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tests.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="1428">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="1428">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#126#207#0#PHP" expanded="true" />
                 <marker date="1424888033535" expanded="true" signature="687:807" placeholder="INSERT INTO ..." />
@@ -61,12 +64,31 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="799">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="816">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
-                <marker date="1424853917011" expanded="true" signature="421:441" placeholder="SELECT * FRO..quizes..." />
-                <marker date="1424853917011" expanded="true" signature="629:747" placeholder="..." />
-                <marker date="1424853917011" expanded="true" signature="661:742" placeholder="..." />
+                <marker date="1424889556529" expanded="true" signature="421:441" placeholder="SELECT * FRO..quizes..." />
+                <marker date="1424889556529" expanded="true" signature="689:875" placeholder="..." />
+                <marker date="1424889556529" expanded="true" signature="721:802" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leaderboard.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leaderboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3" vertical-offset="374" max-vertical-offset="1190">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="e#134#215#0#PHP" expanded="true" />
+                <marker date="1424891364358" expanded="true" signature="430:450" placeholder="SELECT * FRO..quizes..." />
+                <marker date="1424891364358" expanded="true" signature="922:959" placeholder="SELECT quizN..quizes..." />
+                <marker date="1424891364358" expanded="true" signature="1166:1201" placeholder="SELECT * FRO..answers..." />
+                <marker date="1424891364358" expanded="true" signature="1166:1202" placeholder="SELECT * FRO..answers..." />
+                <marker date="1424891364358" expanded="true" signature="1166:1229" placeholder="SELECT * FRO..answers..." />
+                <marker date="1424891364358" expanded="true" signature="1303:1632" placeholder="..." />
+                <marker date="1424891364358" expanded="true" signature="1397:1632" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -75,16 +97,16 @@
       <file leaf-file-name="quiz.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923" vertical-offset="663" max-vertical-offset="1343">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state vertical-scroll-proportion="-22.23077" vertical-offset="561" max-vertical-offset="1343">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="68" selection-end-column="15" />
               <folding>
-                <element signature="e#126#207#0#PHP" expanded="true" />
-                <marker date="1424884628470" expanded="true" signature="543:570" placeholder="SELECT quizN..quizes..." />
-                <marker date="1424884628470" expanded="true" signature="543:580" placeholder="SELECT quizN..quizesWHERE..." />
-                <marker date="1424884628470" expanded="true" signature="543:580" placeholder="SELECT quizN..quizes..." />
-                <marker date="1424884628470" expanded="true" signature="543:588" placeholder="SELECT quizN..quizes..." />
-                <marker date="1424884628470" expanded="true" signature="543:590" placeholder="SELECT quizN..quizes..." />
-                <marker date="1424884628470" expanded="true" signature="748:785" placeholder="SELECT * FRO..questions..." />
+                <element signature="e#121#202#0#PHP" expanded="true" />
+                <marker date="1424889556570" expanded="true" signature="538:565" placeholder="SELECT quizN..quizes..." />
+                <marker date="1424889556570" expanded="true" signature="538:575" placeholder="SELECT quizN..quizesWHERE..." />
+                <marker date="1424889556570" expanded="true" signature="538:575" placeholder="SELECT quizN..quizes..." />
+                <marker date="1424889556570" expanded="true" signature="538:583" placeholder="SELECT quizN..quizes..." />
+                <marker date="1424889556570" expanded="true" signature="538:585" placeholder="SELECT quizN..quizes..." />
+                <marker date="1424889556570" expanded="true" signature="743:780" placeholder="SELECT * FRO..questions..." />
               </folding>
             </state>
           </provider>
@@ -93,24 +115,24 @@
       <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-62.115383" vertical-offset="221" max-vertical-offset="2023">
-              <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2023">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
-                <element signature="e#125#206#0#PHP" expanded="true" />
-                <marker date="1424887475534" expanded="true" signature="582:626" placeholder="SELECT COUNT..questions..." />
-                <marker date="1424887475534" expanded="true" signature="582:635" placeholder="SELECT COUNT..questions..." />
-                <marker date="1424887475534" expanded="true" signature="997:1039" placeholder="SELECT answe..questions..." />
-                <marker date="1424887475534" expanded="true" signature="997:1068" placeholder="SELECT answe..questions..." />
-                <marker date="1424887475534" expanded="true" signature="997:1069" placeholder="SELECT answe..questions..." />
-                <marker date="1424887475534" expanded="true" signature="1207:1284" placeholder="SELECT quest..questions..." />
-                <marker date="1424887475534" expanded="true" signature="1414:1486" placeholder="SELECT choic..questions..." />
-                <marker date="1424887475534" expanded="true" signature="1615:1687" placeholder="SELECT choic..questions..." />
-                <marker date="1424887475534" expanded="true" signature="1816:1888" placeholder="SELECT choic..questions..." />
-                <marker date="1424887475534" expanded="true" signature="2017:2089" placeholder="SELECT choic..questions..." />
-                <marker date="1424887475534" expanded="true" signature="2994:3081" placeholder="INSERT INTO ..." />
-                <marker date="1424887475534" expanded="true" signature="2994:3084" placeholder="INSERT INTO ..." />
-                <marker date="1424887475534" expanded="true" signature="2994:3127" placeholder="INSERT INTO ..." />
-                <marker date="1424887475534" expanded="true" signature="2994:3148" placeholder="INSERT INTO ..." />
+                <element signature="e#128#209#0#PHP" expanded="true" />
+                <marker date="1424889556580" expanded="true" signature="583:627" placeholder="SELECT COUNT..questions..." />
+                <marker date="1424889556580" expanded="true" signature="583:636" placeholder="SELECT COUNT..questions..." />
+                <marker date="1424889556580" expanded="true" signature="998:1040" placeholder="SELECT answe..questions..." />
+                <marker date="1424889556580" expanded="true" signature="998:1069" placeholder="SELECT answe..questions..." />
+                <marker date="1424889556580" expanded="true" signature="998:1070" placeholder="SELECT answe..questions..." />
+                <marker date="1424889556580" expanded="true" signature="1208:1285" placeholder="SELECT quest..questions..." />
+                <marker date="1424889556580" expanded="true" signature="1415:1487" placeholder="SELECT choic..questions..." />
+                <marker date="1424889556580" expanded="true" signature="1616:1688" placeholder="SELECT choic..questions..." />
+                <marker date="1424889556580" expanded="true" signature="1817:1889" placeholder="SELECT choic..questions..." />
+                <marker date="1424889556580" expanded="true" signature="2018:2090" placeholder="SELECT choic..questions..." />
+                <marker date="1424889556580" expanded="true" signature="2995:3082" placeholder="INSERT INTO ..." />
+                <marker date="1424889556580" expanded="true" signature="2995:3085" placeholder="INSERT INTO ..." />
+                <marker date="1424889556580" expanded="true" signature="2995:3128" placeholder="INSERT INTO ..." />
+                <marker date="1424889556580" expanded="true" signature="2995:3149" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -137,11 +159,12 @@
         <option value="db-console:/b6fd28d4/16d79913-cfab-4796-8662-6acb47a488da/" />
         <option value="db-console:/b6fd28d4/664d3f37-6de6-4cf4-b9c0-349b0c6b5cf9/" />
         <option value="$PROJECT_DIR$/home.php" />
-        <option value="$PROJECT_DIR$/quiz.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="db-console:/b6fd28d4/cb616392-551f-464f-8f5b-4776c8724523/" />
-        <option value="$PROJECT_DIR$/result.php" />
         <option value="$PROJECT_DIR$/questions.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/quiz.php" />
+        <option value="$PROJECT_DIR$/result.php" />
+        <option value="$PROJECT_DIR$/leaderboard.php" />
       </list>
     </option>
   </component>
@@ -294,7 +317,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18262807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -309,7 +332,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122068234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122068234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -399,34 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="799">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <marker date="1424853917011" expanded="true" signature="421:441" placeholder="SELECT * FRO..quizes..." />
-            <marker date="1424853917011" expanded="true" signature="629:747" placeholder="..." />
-            <marker date="1424853917011" expanded="true" signature="661:742" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923" vertical-offset="663" max-vertical-offset="1343">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#126#207#0#PHP" expanded="true" />
-            <marker date="1424884628470" expanded="true" signature="543:570" placeholder="SELECT quizN..quizes..." />
-            <marker date="1424884628470" expanded="true" signature="543:580" placeholder="SELECT quizN..quizesWHERE..." />
-            <marker date="1424884628470" expanded="true" signature="543:580" placeholder="SELECT quizN..quizes..." />
-            <marker date="1424884628470" expanded="true" signature="543:588" placeholder="SELECT quizN..quizes..." />
-            <marker date="1424884628470" expanded="true" signature="543:590" placeholder="SELECT quizN..quizes..." />
-            <marker date="1424884628470" expanded="true" signature="748:785" placeholder="SELECT * FRO..questions..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://db-console:/b6fd28d4/cb616392-551f-464f-8f5b-4776c8724523/">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
@@ -435,34 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-62.115383" vertical-offset="221" max-vertical-offset="2023">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-          <folding>
-            <element signature="e#125#206#0#PHP" expanded="true" />
-            <marker date="1424887475534" expanded="true" signature="582:626" placeholder="SELECT COUNT..questions..." />
-            <marker date="1424887475534" expanded="true" signature="582:635" placeholder="SELECT COUNT..questions..." />
-            <marker date="1424887475534" expanded="true" signature="997:1039" placeholder="SELECT answe..questions..." />
-            <marker date="1424887475534" expanded="true" signature="997:1068" placeholder="SELECT answe..questions..." />
-            <marker date="1424887475534" expanded="true" signature="997:1069" placeholder="SELECT answe..questions..." />
-            <marker date="1424887475534" expanded="true" signature="1207:1284" placeholder="SELECT quest..questions..." />
-            <marker date="1424887475534" expanded="true" signature="1414:1486" placeholder="SELECT choic..questions..." />
-            <marker date="1424887475534" expanded="true" signature="1615:1687" placeholder="SELECT choic..questions..." />
-            <marker date="1424887475534" expanded="true" signature="1816:1888" placeholder="SELECT choic..questions..." />
-            <marker date="1424887475534" expanded="true" signature="2017:2089" placeholder="SELECT choic..questions..." />
-            <marker date="1424887475534" expanded="true" signature="2994:3081" placeholder="INSERT INTO ..." />
-            <marker date="1424887475534" expanded="true" signature="2994:3084" placeholder="INSERT INTO ..." />
-            <marker date="1424887475534" expanded="true" signature="2994:3127" placeholder="INSERT INTO ..." />
-            <marker date="1424887475534" expanded="true" signature="2994:3148" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="1428">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#126#207#0#PHP" expanded="true" />
             <marker date="1424888033535" expanded="true" signature="687:807" placeholder="INSERT INTO ..." />
@@ -471,6 +442,75 @@
             <marker date="1424888033535" expanded="true" signature="687:865" placeholder="INSERT INTO ..." />
             <marker date="1424888033535" expanded="true" signature="687:955" placeholder="INSERT INTO ..." />
             <marker date="1424888033535" expanded="true" signature="1031:1054" placeholder="SELECT * FRO..questions..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2023">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#128#209#0#PHP" expanded="true" />
+            <marker date="1424889556580" expanded="true" signature="583:627" placeholder="SELECT COUNT..questions..." />
+            <marker date="1424889556580" expanded="true" signature="583:636" placeholder="SELECT COUNT..questions..." />
+            <marker date="1424889556580" expanded="true" signature="998:1040" placeholder="SELECT answe..questions..." />
+            <marker date="1424889556580" expanded="true" signature="998:1069" placeholder="SELECT answe..questions..." />
+            <marker date="1424889556580" expanded="true" signature="998:1070" placeholder="SELECT answe..questions..." />
+            <marker date="1424889556580" expanded="true" signature="1208:1285" placeholder="SELECT quest..questions..." />
+            <marker date="1424889556580" expanded="true" signature="1415:1487" placeholder="SELECT choic..questions..." />
+            <marker date="1424889556580" expanded="true" signature="1616:1688" placeholder="SELECT choic..questions..." />
+            <marker date="1424889556580" expanded="true" signature="1817:1889" placeholder="SELECT choic..questions..." />
+            <marker date="1424889556580" expanded="true" signature="2018:2090" placeholder="SELECT choic..questions..." />
+            <marker date="1424889556580" expanded="true" signature="2995:3082" placeholder="INSERT INTO ..." />
+            <marker date="1424889556580" expanded="true" signature="2995:3085" placeholder="INSERT INTO ..." />
+            <marker date="1424889556580" expanded="true" signature="2995:3128" placeholder="INSERT INTO ..." />
+            <marker date="1424889556580" expanded="true" signature="2995:3149" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="816">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1424889556529" expanded="true" signature="421:441" placeholder="SELECT * FRO..quizes..." />
+            <marker date="1424889556529" expanded="true" signature="689:875" placeholder="..." />
+            <marker date="1424889556529" expanded="true" signature="721:802" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077" vertical-offset="561" max-vertical-offset="1343">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="68" selection-end-column="15" />
+          <folding>
+            <element signature="e#121#202#0#PHP" expanded="true" />
+            <marker date="1424889556570" expanded="true" signature="538:565" placeholder="SELECT quizN..quizes..." />
+            <marker date="1424889556570" expanded="true" signature="538:575" placeholder="SELECT quizN..quizesWHERE..." />
+            <marker date="1424889556570" expanded="true" signature="538:575" placeholder="SELECT quizN..quizes..." />
+            <marker date="1424889556570" expanded="true" signature="538:583" placeholder="SELECT quizN..quizes..." />
+            <marker date="1424889556570" expanded="true" signature="538:585" placeholder="SELECT quizN..quizes..." />
+            <marker date="1424889556570" expanded="true" signature="743:780" placeholder="SELECT * FRO..questions..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leaderboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3" vertical-offset="374" max-vertical-offset="1190">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#134#215#0#PHP" expanded="true" />
+            <marker date="1424891364358" expanded="true" signature="430:450" placeholder="SELECT * FRO..quizes..." />
+            <marker date="1424891364358" expanded="true" signature="922:959" placeholder="SELECT quizN..quizes..." />
+            <marker date="1424891364358" expanded="true" signature="1166:1201" placeholder="SELECT * FRO..answers..." />
+            <marker date="1424891364358" expanded="true" signature="1166:1202" placeholder="SELECT * FRO..answers..." />
+            <marker date="1424891364358" expanded="true" signature="1166:1229" placeholder="SELECT * FRO..answers..." />
+            <marker date="1424891364358" expanded="true" signature="1303:1632" placeholder="..." />
+            <marker date="1424891364358" expanded="true" signature="1397:1632" placeholder="..." />
           </folding>
         </state>
       </provider>

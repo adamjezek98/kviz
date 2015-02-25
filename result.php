@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>quiz test</title>
+    <title>Quiz Results</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@ if(isset($_GET["id"]) )
 else
 {
     $quizid = 5;
-    //exit;
+    exit;
 }
 if(! isset($_POST["answer1"]))
     exit;
