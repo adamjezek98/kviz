@@ -16,17 +16,17 @@
  * Date: 23. 2. 2015
  * Time: 20:18
  */
+
+/**
+ * Unimportant for the rest of the quizes, only for testing a adding testing data
+ */
+/*
 $connection = new PDO("mysql:host=localhost;dbname=quizDB",'root','');
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 echo 'connected<br/>';
 $connection->query("SET NAMES utf8");
-/*
-for($i = 3; $i < 30; $i++) {
 
-    $command = $connection->prepare("INSERT INTO questions (quizName) VALUE (\"Testovací kvíz č. $i\")");
-    $command->execute();
-}
-*/
+
 
 $answers = array("A", "B", "C", "D");
 for($i = 1; $i <= 30; $i++) {
@@ -48,7 +48,6 @@ for($i = 1; $i <= 30; $i++) {
     }
 }
 
-exit;
 $command = $connection->prepare("SELECT * FROM questions ");
 $command->execute();
 
@@ -71,7 +70,7 @@ foreach( $command as $v)
     echo "</td></tr>";
 }
 echo "</table>";
-
+*/
 ?>
 
 
