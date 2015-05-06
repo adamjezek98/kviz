@@ -45,6 +45,13 @@ for($i = 0; $i < $questioncount; $i++ ) {
     $num = $i + 1;
     $useranswer = $_POST["answer" . $num]; //get user answer
 
+
+    /* POZOR!
+    Řádky níže sou strašná prasárna!
+    Čti na vlastní nebezpečí
+    */
+    
+
     //get right answer
     $command = $connection->prepare("SELECT answer FROM questions WHERE quizID=$quizid and questionNumber = $num");
     $command->execute();
